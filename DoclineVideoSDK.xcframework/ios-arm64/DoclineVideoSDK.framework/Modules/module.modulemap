@@ -1,0 +1,11 @@
+framework module DoclineVideoSDK {
+  umbrella header "DoclineVideoSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module DoclineVideoSDK.Swift {
+    header "DoclineVideoSDK-Swift.h"
+    requires objc
+}
