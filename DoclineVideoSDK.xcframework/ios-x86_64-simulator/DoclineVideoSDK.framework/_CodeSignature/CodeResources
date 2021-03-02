@@ -6,31 +6,31 @@
 	<dict>
 		<key>ActionSheetCell.nib</key>
 		<data>
-		B/km88p5SDYZdWmsyu5sNrPnWrM=
+		Xuwab03rg/+oFFQ+6YJwpg1Aezc=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		DENmGUWyWW27vgfJKf8+J9CwLro=
+		XAt9Ts9LfRdTSr9Kc76qsXC9kQY=
 		</data>
 		<key>AudioPickerCell.nib</key>
 		<data>
-		HqY7FQ8Oybze+0YqKKyul5k2Xh4=
+		r6a11OEE0MMbC09w0cUJOrOSW+g=
 		</data>
 		<key>AvatarLettersView.nib</key>
 		<data>
-		nWTrK1RM+1bx+y5hWnXdL1d6K3U=
+		7p95HNEBiJuZqQ5YxljYrKDAfDk=
 		</data>
 		<key>ChatViewCell.nib</key>
 		<data>
-		oSh3d0ug7L/zCUWDGpCVG3FHb4c=
+		zxj+FGqmCXw58w2zXorMU8/dYjw=
 		</data>
 		<key>ChronometerView.nib</key>
 		<data>
-		pKgTpPHTz+im0rlChHvlflgiFN0=
+		X/xdFHxpxjNkHFCq2+a9/b5mJRw=
 		</data>
 		<key>CircleButton.nib</key>
 		<data>
-		mLwKL0n6lG/5JixhHbaZi8hCxno=
+		AaPBIVsB0sjp1mosbytvuTPKez0=
 		</data>
 		<key>CustomActionSheet.storyboardc/Info.plist</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>CustomActionSheet.storyboardc/PjP-O0-EDa-view-pm2-4J-ecG.nib</key>
 		<data>
-		Y7G8UG3GqEKB05sFbWCPR2bTJIA=
+		JIXhvMx8RScA5LLI0WRUfh21G3M=
 		</data>
 		<key>CustomActionSheet.storyboardc/UIViewController-PjP-O0-EDa.nib</key>
 		<data>
-		Lhhrs5rVBODerOz+MmJrHku1DOU=
+		wVbPAJqueGWAX+9uwMMLZMAp7mM=
 		</data>
 		<key>CustomInputAlert.storyboardc/Info.plist</key>
 		<data>
@@ -50,23 +50,23 @@
 		</data>
 		<key>CustomInputAlert.storyboardc/UIViewController-wVu-iV-6OB.nib</key>
 		<data>
-		Am7rh8Hu1t6EQJLXqhpp0gIzAd4=
+		TZJ12m8qEgX8RP208jHmpFvwWiI=
 		</data>
 		<key>CustomInputAlert.storyboardc/wVu-iV-6OB-view-WZi-aK-Kuo.nib</key>
 		<data>
-		PcUkbrc9RXEuhpvLotDWngeR7HQ=
+		bGLavJ/D5YFPvTGw36jI/FeEj0o=
 		</data>
 		<key>CustomItemView.nib</key>
 		<data>
-		Ffsx2Z7VBoABsEm2hieLYjL6Y8E=
+		3UA2q5IgoDXF2+oHgQ7ADMyTSwg=
 		</data>
 		<key>DTextField.nib</key>
 		<data>
-		jJp5Dh7sk1tRVdrQ9FDtGWLx2yc=
+		ogiaKPfv6b5Roqvu5Vs18aYDg44=
 		</data>
 		<key>DeterminedPermission.storyboardc/Gog-q3-z8N-view-j8x-IK-x6S.nib</key>
 		<data>
-		0kgbpN6rcXlV65Gb7vB53Rfg3HU=
+		psQPtp9baQrkuiM9SQpUhBROzDE=
 		</data>
 		<key>DeterminedPermission.storyboardc/Info.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>DeterminedPermission.storyboardc/UIViewController-Gog-q3-z8N.nib</key>
 		<data>
-		Qe+W/z5Vqf6hZKt+Ag25x+MgD6E=
+		f1qU6aScwYWC0ufBy8u606440us=
 		</data>
 		<key>DoclineView.storyboardc/Info.plist</key>
 		<data>
@@ -82,15 +82,15 @@
 		</data>
 		<key>DoclineView.storyboardc/UIViewController-qKS-Zi-rki.nib</key>
 		<data>
-		AKBjPNCad64plxd+Tqxja8MqCBs=
+		ity0fzA5bK7tiHUy5dVgbKr9QBs=
 		</data>
 		<key>DoclineView.storyboardc/qKS-Zi-rki-view-mDI-Nf-ncM.nib</key>
 		<data>
-		4J3FAdC1VCyLr42l13boRYw1370=
+		hvzQ7cWNHJSu3NuThMcL52AFDwI=
 		</data>
 		<key>Headers/DoclineVideoSDK-Swift.h</key>
 		<data>
-		BF08qn46edcHzsyG7jlVLJ1/ZWw=
+		ZJMWEIm4zur2dYapz3ZcJ9cjGW4=
 		</data>
 		<key>Headers/DoclineVideoSDK.h</key>
 		<data>
@@ -98,39 +98,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aUXbx2M5+2kOEpeLC72xRI/iVfQ=
+		tZtiFxDIOaO14+dmgBKo5ERtdrY=
 		</data>
 		<key>LettersView.nib</key>
 		<data>
-		DSKxuWpfYsrIQ3whjHX0ohXi4WI=
+		LT0M7CPnGjYf2MlKyUEPGnIpODM=
 		</data>
 		<key>MainButton.nib</key>
 		<data>
-		gVSVtPuNE0RkQO9fqY+jh+bM1EE=
+		CVruwFuwQdqcu6pusSkGz6lnHP8=
+		</data>
+		<key>MenuContainer.storyboardc/Info.plist</key>
+		<data>
+		X6z3IUg9LUB4RpT/sfeRPekg02A=
+		</data>
+		<key>MenuContainer.storyboardc/UIViewController-lrN-pT-W5T.nib</key>
+		<data>
+		Ut2859JTxtn3XaaaMTgRUwqrCU8=
+		</data>
+		<key>MenuContainer.storyboardc/lrN-pT-W5T-view-XFw-ld-ztr.nib</key>
+		<data>
+		7e2+qwZWWDYPdrVGBtAVriOMmBw=
 		</data>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		c6blHcmBIKs8FUagkyMo71g3lds=
+		bTil8uPE+KE5vlpvdsNbgow+goQ=
 		</data>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iY0DQSld32To2TOAwDYU4bM8f70=
+		Qn1Jv7buAu9IoAOt3x9uGCpcihg=
 		</data>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SPywObjaxUb5KLrigdzsuV5tRmo=
+		MGemZz5pWZNZ4GK81zBPy0k8vrQ=
 		</data>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		c6blHcmBIKs8FUagkyMo71g3lds=
+		bTil8uPE+KE5vlpvdsNbgow+goQ=
 		</data>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		iY0DQSld32To2TOAwDYU4bM8f70=
+		Qn1Jv7buAu9IoAOt3x9uGCpcihg=
 		</data>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		SPywObjaxUb5KLrigdzsuV5tRmo=
+		MGemZz5pWZNZ4GK81zBPy0k8vrQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -138,23 +150,23 @@
 		</data>
 		<key>MyContainerView.nib</key>
 		<data>
-		4AhJKV6kqwB5ei/8zLruYXVpxqw=
+		mbDMev7VUpjs93KBZsSKiboSPb8=
 		</data>
 		<key>NotificationToolTip.nib</key>
 		<data>
-		AhLCc9d1o/2kDljifgQTqJ3nSek=
+		HTdlRZ6u+jVMxiQkNLd9RrT335w=
 		</data>
 		<key>ParticipantInfo.nib</key>
 		<data>
-		3FDWvdOkK5KWCm/1tgLyXgzZs4I=
+		AEHM2BcGWFO7FY8fJe2Me9ByDa0=
 		</data>
 		<key>ParticipantVideoCell.nib</key>
 		<data>
-		O1MlOCPi+XfE4jYKZw2wkTeegdc=
+		eH1GJfmmlYfPPhHFpkxx67tEmNY=
 		</data>
 		<key>Permissions.storyboardc/8CM-yH-en1-view-2ln-rl-ykN.nib</key>
 		<data>
-		aIjph1fLE+Kid+QnE2jcg9DIlMg=
+		AajzpMjs/IQVTtn5CMvlhqpRMgI=
 		</data>
 		<key>Permissions.storyboardc/Info.plist</key>
 		<data>
@@ -162,23 +174,23 @@
 		</data>
 		<key>Permissions.storyboardc/UIViewController-8CM-yH-en1.nib</key>
 		<data>
-		WF17lBPbsa5qN/8QjToWgrojTEg=
+		78TKWuvHhTpI0Eat5EBMb0i1O7I=
 		</data>
 		<key>PrincipalContainerView.nib</key>
 		<data>
-		Xr4Jtsf9/nHGFctJdXKuKeZBrZI=
+		JblvCpZKFT/VPIH1z3sgMiB7GI8=
 		</data>
 		<key>PublisherContainerView.nib</key>
 		<data>
-		Ip1cSd3qcPn6++ENX4JQco6O91w=
+		gYfYDMYMAFDqzmxU1EtUphxRxfE=
 		</data>
 		<key>PulseAvatarLettersView.nib</key>
 		<data>
-		BnNvEC43Vlcsh++ayhFOVLYOS2s=
+		Z0bmPM/93vO2H9dejdVLL6wF7DU=
 		</data>
 		<key>RPGDHeaderView.nib</key>
 		<data>
-		wiy8dNUOj2kUwFI3+NG2oZRLzYY=
+		FztF2JTb/a99JMtLoXC44IXVcDg=
 		</data>
 		<key>Setup.storyboardc/Info.plist</key>
 		<data>
@@ -186,15 +198,15 @@
 		</data>
 		<key>Setup.storyboardc/UIViewController-gF1-IG-Nw5.nib</key>
 		<data>
-		1rdsYyN0fD0nKZOVQTbgXjRcReg=
+		vCT4pSs2hVcjycXEqEZyNRTQ7Ow=
 		</data>
 		<key>Setup.storyboardc/gF1-IG-Nw5-view-DMf-cC-4vH.nib</key>
 		<data>
-		QvkGIjj8rJWuLYM/Lk7S1V9n154=
+		xKSAl74X0J5bIohunFCCtV2JWWA=
 		</data>
 		<key>SideMenu.storyboardc/5J9-qu-sKX-view-tCY-29-KMw.nib</key>
 		<data>
-		cG9vYY+F5gZmxyGtb0Tolkg6lSM=
+		ZtYL27ePEkOmRcMkLVcQ+e/YIik=
 		</data>
 		<key>SideMenu.storyboardc/Info.plist</key>
 		<data>
@@ -202,35 +214,35 @@
 		</data>
 		<key>SideMenu.storyboardc/UIViewController-5J9-qu-sKX.nib</key>
 		<data>
-		1FAI5ewrCRdWgCmtqMkceJ8JG9o=
+		IGA62J3QrNfuclMyGCYDtIU/2VI=
 		</data>
 		<key>SideMenuCell.nib</key>
 		<data>
-		2RTYZ0Xna8WXmvtobH/p1vXrY8M=
+		/xp6rclOpFY7HRY9PIwr8dpqTPE=
 		</data>
 		<key>SideMenuHeader.nib</key>
 		<data>
-		MOWE6mjJMCh+23DRc9opC1OUJww=
+		O9a28IcwDs4rPCaTveH23A+RWdI=
 		</data>
 		<key>SimpleContainerView.nib</key>
 		<data>
-		egUH6Yq9mmpfRdJrJduy1nfgWeU=
+		HWmYLNpZ8a3R4c6CWizZEK9/F/c=
 		</data>
 		<key>SquareButton.nib</key>
 		<data>
-		t0d2QqJnTRFwyWc9imZM8/bMg9U=
+		XdOnFJeu3ejA7kvAlCv0zE8OYh0=
 		</data>
 		<key>SwitchView.nib</key>
 		<data>
-		Xz109rV9ppI2e71iFGerEbF6hps=
+		WddUuzl4qu0weRd/T8ey/vOZe64=
 		</data>
 		<key>TabBar.nib</key>
 		<data>
-		Yb/+7KLL5BKeB+YMAxqY9eWZLy0=
+		zTw2cs/LRU47FYSUE4JQRODVV5E=
 		</data>
 		<key>Terms.storyboardc/IE6-LQ-fkT-view-fZJ-f3-8B7.nib</key>
 		<data>
-		Pay3hFJrR70nKM6XeRsbHXOZNOM=
+		Aq1gX5zgz9FU8xxe/2qIHsUVmlE=
 		</data>
 		<key>Terms.storyboardc/Info.plist</key>
 		<data>
@@ -238,15 +250,15 @@
 		</data>
 		<key>Terms.storyboardc/UIViewController-IE6-LQ-fkT.nib</key>
 		<data>
-		1T1N+t6Gt3Br9/NZ2PGDsbi4Fts=
+		oSSfC6/NTzb2JNTyODNBZNdFx4I=
 		</data>
 		<key>TextToolTip.nib</key>
 		<data>
-		bqoNh3ftusSUKrsiiby36omJsN0=
+		OzOv5bHNHsWIMjbTkPMFlMLJMXg=
 		</data>
 		<key>TypingInfoView.nib</key>
 		<data>
-		x4O4B2VX080Ed322VuswDl7M4/c=
+		B066nralG3Jy8LzdLDdaBxcnkKI=
 		</data>
 		<key>VChat.storyboardc/Info.plist</key>
 		<data>
@@ -254,11 +266,11 @@
 		</data>
 		<key>VChat.storyboardc/UIViewController-Vmd-SP-Ztw.nib</key>
 		<data>
-		Bv/Tg7PvLm/dD7zpmHIChNUw86Y=
+		ILyOP1WSH7lRVklfkCRqha4RJNM=
 		</data>
 		<key>VChat.storyboardc/Vmd-SP-Ztw-view-R6S-LD-ktB.nib</key>
 		<data>
-		/cwPxx+snRFIce0UxfqHg4++G9E=
+		buHAm5gAmY9Gi1NNtzyu+VcIDrI=
 		</data>
 		<key>VConsultation.storyboardc/Info.plist</key>
 		<data>
@@ -266,11 +278,11 @@
 		</data>
 		<key>VConsultation.storyboardc/UIViewController-iGa-nC-Sp8.nib</key>
 		<data>
-		FNzdvZbsbfJx6zBJ+mN2EVS6MHY=
+		oR3VENYsWaqCNFBzDymmal5NwP8=
 		</data>
 		<key>VConsultation.storyboardc/iGa-nC-Sp8-view-J2j-nN-GSJ.nib</key>
 		<data>
-		CdFWAYZCtBuiuHkTqUasQovJKaQ=
+		htpcv9H0sskb7P1e6VKrgy/SWfU=
 		</data>
 		<key>VLeave.storyboardc/Info.plist</key>
 		<data>
@@ -278,15 +290,15 @@
 		</data>
 		<key>VLeave.storyboardc/Swy-bR-iXu-view-lGc-zc-v6a.nib</key>
 		<data>
-		RrdCH2Qxwm8ky/mueRNoISib4zg=
+		bEMwwgdTzaeaSgXkymzM4BhTHu4=
 		</data>
 		<key>VLeave.storyboardc/UIViewController-Swy-bR-iXu.nib</key>
 		<data>
-		IsH1mCzD5CU/3lPiiA5ThAJ+Ly8=
+		ra8TmMN+jWCqHGRDba3JupO4XPc=
 		</data>
 		<key>VParticipants.storyboardc/Bjl-CT-xQ5-view-Re4-K8-X8e.nib</key>
 		<data>
-		rZE0HR+XuJrPjJOSY9gBJkoUrb4=
+		7J0JEdakob9NNkEo+wIRxJp/DZg=
 		</data>
 		<key>VParticipants.storyboardc/Info.plist</key>
 		<data>
@@ -294,11 +306,11 @@
 		</data>
 		<key>VParticipants.storyboardc/UIViewController-Bjl-CT-xQ5.nib</key>
 		<data>
-		b6ezyd0n4RsM+6MhqwFcW8Bklaw=
+		jzrghsh3UcpMr6CCrENaXf1+bis=
 		</data>
 		<key>VideoContainerView.nib</key>
 		<data>
-		4n/acXmqyKUq6o0Zcz5Z4gSvnPw=
+		3Tm5RJQ1zGuO0TkIpBVbO7cTnck=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -389,49 +401,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WHmpkPpG7lemMLS5FlzMU92zw2VuN25r8ntC5wBWbLo=
+			f6F4uIVLDrgvlsf7AxKD5c3ih0JZ2nfO8jgo5Wp42NY=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mawdaR8RpioAQHCgX2jCvvBJk68d1mvuTTVCnUDHI+I=
+			LbpE7ZJd5w1LD/Z2y9k9gfSke+GDObLQ3AGOmGbiYVw=
 			</data>
 		</dict>
 		<key>AudioPickerCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RSxtY7fydPi+dU3metzzCDVMTtJGtvU4uqHsV5y82/s=
+			tu1lOg5Sz6Y6nbSLHZ1U4X8VepDs4Ja5oLWUdmCJ3pc=
 			</data>
 		</dict>
 		<key>AvatarLettersView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fva2dN4nxDuCwxKfddI7mAm3XGcRDnxhWRRfpr3fL2c=
+			pcZdcafngfsT1PAmrDPpw8mXxOaLcUpIHrdDz2uA+/U=
 			</data>
 		</dict>
 		<key>ChatViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			chC919bV4XFxVE4xVBy4dyhPIElnz6HoMVsvj+jIKFs=
+			gyjFrUskwnYEXnpkhqyyyIJn8DYGbhl749vHxZLS/tk=
 			</data>
 		</dict>
 		<key>ChronometerView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W3pw85seaz1fCMT74iWwZUKR3rlqUmBZ1H4KfpxA1MA=
+			c1xBlFrnZ+p3xicbyUUf4RsASX2SB3yMo76cRpQrCvw=
 			</data>
 		</dict>
 		<key>CircleButton.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xiHLkcjFb1LSXTtAR6iFrz5YoXXE4TzrgwS+vMtnVBk=
+			Bh9txPDqp14YtMvlJl5hcNAS+Ff3ZAmLSWgkxBa6dI4=
 			</data>
 		</dict>
 		<key>CustomActionSheet.storyboardc/Info.plist</key>
@@ -445,14 +457,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vP4h3IA8QobO7GWk77fuowVzZ+x8PKD+bZg0O31/VU8=
+			hnHKuYDweHQ1Juampf68XcMMHea8WRVjvFVXJBUolMI=
 			</data>
 		</dict>
 		<key>CustomActionSheet.storyboardc/UIViewController-PjP-O0-EDa.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hGPd6Y0GXVbl490CvMhH9SHLAYZNg36NHQtLizEuP3I=
+			iWxmOpK7pi1oXO0EwffrsWM1s3kSu4TsHmOWo3XC1yw=
 			</data>
 		</dict>
 		<key>CustomInputAlert.storyboardc/Info.plist</key>
@@ -466,35 +478,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zy/QYYDkvFpNaghj83ya0MR5Pp6bkf7bEQbKWrdRHfM=
+			LdIge9/zBmt1dS9DlEjlm3MND9qwsuBUrjtIGzerCMA=
 			</data>
 		</dict>
 		<key>CustomInputAlert.storyboardc/wVu-iV-6OB-view-WZi-aK-Kuo.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fqmVoqiMR1HCjXdn/FXeDRRuH0pVsM4jKqJzNjGGDQ4=
+			tREgpxmIqbQqv4Jz6MvfuO7GHsC+nEcqA9yn1dpWdyg=
 			</data>
 		</dict>
 		<key>CustomItemView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZW16TrxFaoIZJbINIjewQuEhcB7zUCJRhxWZsWKcy/M=
+			Oo+31kMiwC2euk4ekxbPplEys/cfSMAbxh8fkYcZ8Ms=
 			</data>
 		</dict>
 		<key>DTextField.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gEDrhxVLg1hznFI7JZylmH8EmIt/MrDZZQAdT7YDcRE=
+			PLFd9AnnKW/nduCOJVF06c95++yNtCwyoOcZ2pzPAO8=
 			</data>
 		</dict>
 		<key>DeterminedPermission.storyboardc/Gog-q3-z8N-view-j8x-IK-x6S.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F8KBf6ZoAByuBrIvXHbBxNFIg1d9DcdhsbR7kwybUEE=
+			rPLDlNEdIGYzP2thvn+qsAvh4nU2PgwBCo24n47+1w4=
 			</data>
 		</dict>
 		<key>DeterminedPermission.storyboardc/Info.plist</key>
@@ -508,7 +520,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8PZBA4dJZ9ZTu+xxGu63e62hgzlM1jF+iAUnajtaTFc=
+			G5ego4WRK4jCNiwGiE65Af7bbRQ6BdZX/Vbc8dEzgMg=
 			</data>
 		</dict>
 		<key>DoclineView.storyboardc/Info.plist</key>
@@ -522,21 +534,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fYMmobfpexfz+XzZ+sEAZcnJxvTUqtQsmhqeCxK6pY0=
+			UpQ2XJL+frMHhy1I/rGrLFGEznJ77JUY9d8DcSC5xF4=
 			</data>
 		</dict>
 		<key>DoclineView.storyboardc/qKS-Zi-rki-view-mDI-Nf-ncM.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kIkoT0k6l8a73ZrsbTROj+0JgKc1bBC4sp0pD6ySnIQ=
+			mbiytw/Z0DaBqVGfbVNy8rIehiaPnFF2usFq+q+48h4=
 			</data>
 		</dict>
 		<key>Headers/DoclineVideoSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JdMbRLTH44sRY1x+qRhdggib70iNVwHb5hSZXhvRfyI=
+			ix8zdrVzq+zPRdtSsDJQyjmr2YcpYPbm1hDwNm4tlXU=
 			</data>
 		</dict>
 		<key>Headers/DoclineVideoSDK.h</key>
@@ -550,56 +562,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+a1fnbc9/PnrKH3hOfTeFFY/7nL0zI2nU5o74LzH7E=
+			yloRb68/zn5HFmeeGyakehXBq1EfDJK0Q5OrM3p7v50=
 			</data>
 		</dict>
 		<key>MainButton.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ECgG9c/6OOnVgFNI6fa1McEeQahVgUkypuciH6PxDuU=
+			eouYNqMVh5W4BbNWlt7HEOArl06OfCu0kheZ2JLj7bc=
+			</data>
+		</dict>
+		<key>MenuContainer.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VXhsaymkcO+Fs/9enk0POoqix5U6bEcuR039VbBIJf8=
+			</data>
+		</dict>
+		<key>MenuContainer.storyboardc/UIViewController-lrN-pT-W5T.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C3WSTpXur7K+R4Cc2cjsnlVw3QBeLMwGUWSMz8yHtN8=
+			</data>
+		</dict>
+		<key>MenuContainer.storyboardc/lrN-pT-W5T-view-XFw-ld-ztr.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MeM3oxfG4wiMD4WjV9h9kfVR/uLjAwq+xYfvY3XRXtk=
 			</data>
 		</dict>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPHTynK47OLbddY8c5R34Wff6MlbE6tXIwKBw+Oz160=
+			O7He8AE8/OQV2LF2RfcECbOSdGfH4plLChn6RRG0XNg=
 			</data>
 		</dict>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/6ZwUHXTr6EWHfQxKpKf7va3Mm6QMRfw+Q+y5C1qeYg=
+			3Qj56aJGsZbNzYLtBxzE2cC001SsA0U3kxzkYVTv5LQ=
 			</data>
 		</dict>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iEZwE84fv/SrSu8doubgDIatyeIpho50ydYGr+s8kG8=
+			rTyYhO06vCFNIdKaCgeBAU8nlmcs+lbnRPCxw7dybrs=
 			</data>
 		</dict>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPHTynK47OLbddY8c5R34Wff6MlbE6tXIwKBw+Oz160=
+			O7He8AE8/OQV2LF2RfcECbOSdGfH4plLChn6RRG0XNg=
 			</data>
 		</dict>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/6ZwUHXTr6EWHfQxKpKf7va3Mm6QMRfw+Q+y5C1qeYg=
+			3Qj56aJGsZbNzYLtBxzE2cC001SsA0U3kxzkYVTv5LQ=
 			</data>
 		</dict>
 		<key>Modules/DoclineVideoSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iEZwE84fv/SrSu8doubgDIatyeIpho50ydYGr+s8kG8=
+			rTyYhO06vCFNIdKaCgeBAU8nlmcs+lbnRPCxw7dybrs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -613,35 +646,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2L7cIqbVNff0p/VKFNCH4G67VMiGzwNxTgZKmGrMxEs=
+			ir9mIpFFfGz6i4YO/ItDuExMBO9ji9JL+CCnML57IfY=
 			</data>
 		</dict>
 		<key>NotificationToolTip.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6sn0iE8PftFfQGxpZDwYEBNjehX6ZZiSWMzM9wsQfws=
+			z7g60yUHni6W3kDe69SJdm8NKoS8FCzlbUUYCsE7BHQ=
 			</data>
 		</dict>
 		<key>ParticipantInfo.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			doBlM3zFPH5pevhOkEi76fUTYHMHLRiYIO8bCX+2Wd4=
+			poCT8AnJRZSODwR+LdOmw0rgOxjvEFcW+3ziYb0dlds=
 			</data>
 		</dict>
 		<key>ParticipantVideoCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s3f1nRQ5OHTpUpap1yw6uduNj8ILz6c5s40Imz3yLHs=
+			lY+yKr+X08K8Hbz1c/h0LWRPxc/yvujqofaB1TMm+nU=
 			</data>
 		</dict>
 		<key>Permissions.storyboardc/8CM-yH-en1-view-2ln-rl-ykN.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LjkzB2TzJTJl6HHosI5awkx10Igep6UyUJVU9KT571I=
+			SVmEbuC2cODRKtloPTz9Xo1Pj6UCxvLCI6Q0apXzr08=
 			</data>
 		</dict>
 		<key>Permissions.storyboardc/Info.plist</key>
@@ -655,35 +688,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wBp6u11dLJZF6rDLdULbe58BgWWhFuYar52boOtUAPI=
+			ZEvGGEYjyq4ZwXS7cH9RUPpDrNO5nTFnNbqei2nTdJs=
 			</data>
 		</dict>
 		<key>PrincipalContainerView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mv0jnKFzYqid21CqaloKK29ZDGyQvCYn28f0sjUdh0g=
+			W2eGirgUYl1yfhSDcHlD01iSZSMUViBcF5CDKHpKsqk=
 			</data>
 		</dict>
 		<key>PublisherContainerView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N+jAjD+aoWf56haBFPMaMbshjI7z+GEBkTaRNuz8A1g=
+			OJxK1AdXU/mHB7Z3hMOuGVMJXbsrMLJMsTA/y+lYfrc=
 			</data>
 		</dict>
 		<key>PulseAvatarLettersView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LLoFaVArQy+mZcCtOOahiLMe6bnCSxr6NLe0d0SDh+s=
+			3/37B82ipQedohCJWuu9l7Mrg1J8gqWTMLbti8nmOZo=
 			</data>
 		</dict>
 		<key>RPGDHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Trb2udy1OoxVqo6ZrnVce7/Uc1ZV3ZgyMjwvj/f5JgY=
+			r+Yr01KFLGeeob+Mz0QcAXdVHVp865x8z+UHdqoYm6g=
 			</data>
 		</dict>
 		<key>Setup.storyboardc/Info.plist</key>
@@ -697,21 +730,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1JHxaGyd7WpGAtUPAycgcHljYGUGC0o6Z/PXkUfdaAo=
+			oenjDHzMMw//qWY4/Y4PTduHtWicao+oVCEiwTmRq14=
 			</data>
 		</dict>
 		<key>Setup.storyboardc/gF1-IG-Nw5-view-DMf-cC-4vH.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W0kGYEAcTcSzU7g47f0TSqwdzCOkl4u5RPCIb/yNmz4=
+			zKkev72xaHX+rFNVmOTnDN6BiMpqtttrncX/R7qCF7c=
 			</data>
 		</dict>
 		<key>SideMenu.storyboardc/5J9-qu-sKX-view-tCY-29-KMw.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dNcqQRJMFisr8UK1zA7Bvmu3dboH3XVvwYEqRNQcSQ8=
+			AFd0lXSxdMVSZFuvW1M79Sxj/pbf0iNybNKRKQeE8Pw=
 			</data>
 		</dict>
 		<key>SideMenu.storyboardc/Info.plist</key>
@@ -725,56 +758,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MktJunOQfkvpSkmVQ8x3k54MSOWlYrHQMzNfzk6NbzQ=
+			EaEZtfCWK+GBOXt5qpft5SQEXvG2P89qqW1bhz6VA+U=
 			</data>
 		</dict>
 		<key>SideMenuCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SbVMni9iL8syuw3SF98S8IDlgwFTutDal0le/1GXgB8=
+			F2Fp+J1UzH/zNZRfllusjU9n6n8BJmpgKNzCjldxbfw=
 			</data>
 		</dict>
 		<key>SideMenuHeader.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/c9FWDhV+pgnG8ZadPEG/hACTV/HVInYGt7h2ddD1FA=
+			VRyxJYcYmfE6r8u9EiX1Z2ckJUqu+M81gDwhYJ23sQs=
 			</data>
 		</dict>
 		<key>SimpleContainerView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			THq1gQPlq6Qm9OlmDn8qHJBkmPgz3xAQpkM21Nd+1js=
+			6AtGwBxGkbrSOQC8osprwntFOwD9l8p+5QgbET98bc8=
 			</data>
 		</dict>
 		<key>SquareButton.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XSdKay+0sOEMeGws/y2YnOu7Z3x1udXwTbVc89ZF7+8=
+			djwHczO2CBK12l8TRquBhKWKqkPaHkBY7zkVWZzXHjo=
 			</data>
 		</dict>
 		<key>SwitchView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			piM2IfZ7pvg7QAYL+iVlGFg67wn+pVrKZ1WP7GQO7Cc=
+			qqCB4mS1xu18XRlcljrFhZBBT+NpMxo62FPz+pnRYrA=
 			</data>
 		</dict>
 		<key>TabBar.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w1UPc/K8MP/FW0W60AzImDYkUo+4u/kkJdO5g+Nolzs=
+			jgrP9ELgAtOEvcRbxh5ZOB/X0yLe59dlrbk36n5cmaE=
 			</data>
 		</dict>
 		<key>Terms.storyboardc/IE6-LQ-fkT-view-fZJ-f3-8B7.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6OP5oITq//fVkHDCJP+R15u1mHaau6Oxf3lfC8fE8TA=
+			SqgUwxH2NKNcgirfXtqC2to8x9yCcrCk6gH/E8/tqq0=
 			</data>
 		</dict>
 		<key>Terms.storyboardc/Info.plist</key>
@@ -788,21 +821,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nb/LH8jVtu6X8UehLTHzp6ZWJ2hn1B15bFzP6qudKI8=
+			ZtYJqOlXkfvKKpjndDs8vzmCpVHccpthcJuvegZnpxc=
 			</data>
 		</dict>
 		<key>TextToolTip.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dZve0Le9XdRF/s/MSkDKFjOUEA6UzjcpGkEX1enayko=
+			1qG2hLZ4TDNd99BZ/y0dM7/QvXFnUcXMgDgShPtlOdk=
 			</data>
 		</dict>
 		<key>TypingInfoView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			67IjyisKf+L5LGeGTLLIOeHw1CjkMQo5XGVH9AbVZlA=
+			O7jP75d8GwI5Xt8R0KjNxKKghrWK15Mqz3YzZ1b1unU=
 			</data>
 		</dict>
 		<key>VChat.storyboardc/Info.plist</key>
@@ -816,14 +849,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4UUmpCjgTJxWRzk5rGLBDmBMXuOpkIbLJFoKj7UI180=
+			v6F9+x1at1wNDsqp6w64G/Ql4/tYOcXeeb/ZNKQZ9hg=
 			</data>
 		</dict>
 		<key>VChat.storyboardc/Vmd-SP-Ztw-view-R6S-LD-ktB.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FfiGttbf2K22bN9F4Xwq/GEj5BkqP2C2R9PjXA7hi68=
+			1av1AV36Y7cALMzClcwc0scTq8qpEau/PkgIhhdeGz8=
 			</data>
 		</dict>
 		<key>VConsultation.storyboardc/Info.plist</key>
@@ -837,14 +870,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9eMQsuSh+NCC0mqYm4Q4n0nfIbVOUNEN29ellVm6doI=
+			zAKLCgkcdXx0tc1egV80/o5asrdRFPrcyV5NlBlGjWU=
 			</data>
 		</dict>
 		<key>VConsultation.storyboardc/iGa-nC-Sp8-view-J2j-nN-GSJ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h7dAa3s0O8Upsqrj8EQBp/J9XC8k3RZSvBUcmb+KeL8=
+			aU5aYT3Hr8Qu38LP0bbTEg8uP4GljjYI4OEnlv9LV38=
 			</data>
 		</dict>
 		<key>VLeave.storyboardc/Info.plist</key>
@@ -858,21 +891,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EtQCeKa1cHAB3vESZvazeg/H6IiEl2PaBT6kSWQxdVI=
+			6fI447c7hRi0LhmKGtW+BbbwdgDUQhcLgopQSqDqEQI=
 			</data>
 		</dict>
 		<key>VLeave.storyboardc/UIViewController-Swy-bR-iXu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qHQjCoIUUQt7PEW8yC2zPba5u+GkKQUQAPMroHXq6jY=
+			40n7qCijlNl/xwXDRyPss2ASzPFSDi6qUajrB0VhWRk=
 			</data>
 		</dict>
 		<key>VParticipants.storyboardc/Bjl-CT-xQ5-view-Re4-K8-X8e.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qcAG4Q+GY9qQ9S8T5fG/sVQgDRWYYh597ImucvBn7KM=
+			6U/V/BO87xGpvYHfcJe0k6Hj1Nr3oGbpW4r9bc4qhRs=
 			</data>
 		</dict>
 		<key>VParticipants.storyboardc/Info.plist</key>
@@ -886,14 +919,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ulixZK2SDjOzFejbYWpSqwcVEDjbuT+c97OQD6O5PvY=
+			MXt+OdP5g5wqaDAzKZLNAL5tf2iDskH2l6z68n4azdI=
 			</data>
 		</dict>
 		<key>VideoContainerView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BtzhMmrUxGxOrdCY7Vv7n2Dwd5Sta69/I3yls2PYIxg=
+			NzlEkvMtKNGaEFv2PGTH1oOKoGrPHiirsWUrJrYzjzg=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
