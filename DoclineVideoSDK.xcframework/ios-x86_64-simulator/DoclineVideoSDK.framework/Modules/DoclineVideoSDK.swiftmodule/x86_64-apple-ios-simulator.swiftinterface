@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoclineVideoSDK
 import AVFoundation
 import AVKit
@@ -167,26 +167,26 @@ public protocol TermsDataPassing {
   public enum CameraSource {
     case front, back
     public static func == (a: DoclineVideoSDK.Docline.CameraSource, b: DoclineVideoSDK.Docline.CameraSource) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
-    public func hash(into hasher: inout Swift.Hasher)
   }
   public enum ScreenView {
     case setupScreen, waitingRoom, videoConsultation, permissionsScreen
     public static func == (a: DoclineVideoSDK.Docline.ScreenView, b: DoclineVideoSDK.Docline.ScreenView) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
-    public func hash(into hasher: inout Swift.Hasher)
   }
   public enum StreamType {
     case camera, screen
     public static func == (a: DoclineVideoSDK.Docline.StreamType, b: DoclineVideoSDK.Docline.StreamType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
-    public func hash(into hasher: inout Swift.Hasher)
   }
   public struct Setup {
     public init(serverURL: Swift.String, primaryColor: UIKit.UIColor? = nil, secondaryColor: UIKit.UIColor? = nil)
