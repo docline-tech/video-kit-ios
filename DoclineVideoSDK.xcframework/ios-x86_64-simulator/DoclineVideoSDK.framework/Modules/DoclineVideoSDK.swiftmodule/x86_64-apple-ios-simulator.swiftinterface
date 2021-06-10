@@ -69,6 +69,9 @@ extension KeyedDecodingContainerProtocol {
   public func decodeArrayIfPresent<T>(_ type: T.Type, forKey key: Self.Key) throws -> [T]? where T : Swift.Decodable
   public func decodeMap<T>(_ type: T.Type, excludedKeys: Swift.Set<Self.Key>) throws -> [Self.Key : T] where T : Swift.Decodable, Self.Key : Swift.Hashable
 }
+extension UIColor {
+  convenience public init?(hex: Swift.String)
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class DoclineViewController : DoclineVideoSDK.BaseViewController {
   weak final public var delegate: DoclineVideoSDK.DoclineDelegate?
   weak final public var recordingDelegate: DoclineVideoSDK.DoclineRecordingDelegate?
