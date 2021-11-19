@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoclineVideoSDK
 import AVFoundation
 import AVKit
@@ -17,38 +17,37 @@ import QuartzCore
 import Swift
 import SystemConfiguration
 import UIKit
-extension UIActivityIndicatorView.Style {
-}
+import _Concurrency
 public protocol PermissionsDelegate : AnyObject {
   func nextAction(_ sender: UIKit.UIViewController, allAutorized: Swift.Bool)
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BaseViewController : UIKit.UIViewController {
-  @objc override dynamic public func viewDidLoad()
-  open func setup()
-  @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @objc get
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BaseViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) open func setup()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @_Concurrency.MainActor(unsafe) @objc get
   }
   @objc deinit
 }
-extension BaseViewController : UIKit.UINavigationControllerDelegate {
-  @objc dynamic public func navigationControllerSupportedInterfaceOrientations(_ navigationController: UIKit.UINavigationController) -> UIKit.UIInterfaceOrientationMask
+extension DoclineVideoSDK.BaseViewController : UIKit.UINavigationControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func navigationControllerSupportedInterfaceOrientations(_ navigationController: UIKit.UINavigationController) -> UIKit.UIInterfaceOrientationMask
 }
-extension BaseViewController : UIKit.UIViewControllerTransitioningDelegate {
-  @objc dynamic public func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> UIKit.UIViewControllerAnimatedTransitioning?
-  @objc dynamic public func animationController(forDismissed dismissed: UIKit.UIViewController) -> UIKit.UIViewControllerAnimatedTransitioning?
+extension DoclineVideoSDK.BaseViewController : UIKit.UIViewControllerTransitioningDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> UIKit.UIViewControllerAnimatedTransitioning?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func animationController(forDismissed dismissed: UIKit.UIViewController) -> UIKit.UIViewControllerAnimatedTransitioning?
 }
 public protocol TermsDelegate : AnyObject {
   func exit(_ sender: UIKit.UIViewController)
   func agreeTerms(_ sender: UIKit.UIViewController)
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class TermsViewController : DoclineVideoSDK.BaseViewController {
-  public var router: (DoclineVideoSDK.TermsDataPassing & DoclineVideoSDK.TermsRoutingLogic & ObjectiveC.NSObjectProtocol)?
-  weak public var delegate: DoclineVideoSDK.TermsDelegate?
-  override public func setup()
-  @objc override dynamic public func viewDidLoad()
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class TermsViewController : DoclineVideoSDK.BaseViewController {
+  @_Concurrency.MainActor(unsafe) public var router: (DoclineVideoSDK.TermsDataPassing & DoclineVideoSDK.TermsRoutingLogic & ObjectiveC.NSObjectProtocol)?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: DoclineVideoSDK.TermsDelegate?
+  @_Concurrency.MainActor(unsafe) override public func setup()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
-extension String : Swift.CodingKey {
+extension Swift.String : Swift.CodingKey {
   public var stringValue: Swift.String {
     get
   }
@@ -58,58 +57,62 @@ extension String : Swift.CodingKey {
   }
   public init?(intValue: Swift.Int)
 }
-extension KeyedEncodingContainerProtocol {
+extension Swift.KeyedEncodingContainerProtocol {
   public mutating func encodeArray<T>(_ values: [T], forKey key: Self.Key) throws where T : Swift.Encodable
   public mutating func encodeArrayIfPresent<T>(_ values: [T]?, forKey key: Self.Key) throws where T : Swift.Encodable
   public mutating func encodeMap<T>(_ pairs: [Self.Key : T]) throws where T : Swift.Encodable, Self.Key : Swift.Hashable
   public mutating func encodeMapIfPresent<T>(_ pairs: [Self.Key : T]?) throws where T : Swift.Encodable, Self.Key : Swift.Hashable
 }
-extension KeyedDecodingContainerProtocol {
+extension Swift.KeyedDecodingContainerProtocol {
   public func decodeArray<T>(_ type: T.Type, forKey key: Self.Key) throws -> [T] where T : Swift.Decodable
   public func decodeArrayIfPresent<T>(_ type: T.Type, forKey key: Self.Key) throws -> [T]? where T : Swift.Decodable
   public func decodeMap<T>(_ type: T.Type, excludedKeys: Swift.Set<Self.Key>) throws -> [Self.Key : T] where T : Swift.Decodable, Self.Key : Swift.Hashable
 }
-extension UIColor {
+extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class DoclineViewController : DoclineVideoSDK.BaseViewController {
-  weak final public var delegate: DoclineVideoSDK.DoclineDelegate?
-  weak final public var recordingDelegate: DoclineVideoSDK.DoclineRecordingDelegate?
-  weak final public var connectionDelegate: DoclineVideoSDK.DoclineConnectionDelegate?
-  weak final public var participantDelegate: DoclineVideoSDK.DoclineParticipantDelegate?
-  weak final public var chatDelegate: DoclineVideoSDK.DoclineChatDelegate?
-  override final public func setup()
-  @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @objc get
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class DoclineViewController : DoclineVideoSDK.BaseViewController {
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: DoclineVideoSDK.DoclineDelegate?
+  @_Concurrency.MainActor(unsafe) weak final public var recordingDelegate: DoclineVideoSDK.DoclineRecordingDelegate?
+  @_Concurrency.MainActor(unsafe) weak final public var connectionDelegate: DoclineVideoSDK.DoclineConnectionDelegate?
+  @_Concurrency.MainActor(unsafe) weak final public var participantDelegate: DoclineVideoSDK.DoclineParticipantDelegate?
+  @_Concurrency.MainActor(unsafe) weak final public var chatDelegate: DoclineVideoSDK.DoclineChatDelegate?
+  @_Concurrency.MainActor(unsafe) override final public func setup()
+  @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @_Concurrency.MainActor(unsafe) @objc get
   }
-  @objc override final public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @objc get
+  @_Concurrency.MainActor(unsafe) @objc override final public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @_Concurrency.MainActor(unsafe) @objc get
   }
-  @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
   @objc deinit
 }
-extension DoclineViewController {
-  final public func leave()
+extension DoclineVideoSDK.DoclineViewController {
+  @_Concurrency.MainActor(unsafe) final public func leave()
 }
-extension DoclineViewController : DoclineVideoSDK.PermissionsDelegate {
-  final public func nextAction(_ sender: UIKit.UIViewController, allAutorized: Swift.Bool)
+extension DoclineVideoSDK.DoclineViewController : DoclineVideoSDK.PermissionsDelegate {
+  @_Concurrency.MainActor(unsafe) final public func nextAction(_ sender: UIKit.UIViewController, allAutorized: Swift.Bool)
 }
 public protocol DoclineDelegate : AnyObject {
   func consultationJoinSuccess(_ sender: DoclineVideoSDK.DoclineViewController)
   func consultationJoinError(_ error: DoclineVideoSDK.Docline.ResponseError)
   func consultationTerminated(_ screenView: DoclineVideoSDK.Docline.ScreenView)
+  func consultationRejoin(_ userType: DoclineVideoSDK.Docline.UserType)
+  func consultationExit(_ userType: DoclineVideoSDK.Docline.UserType)
   func updatedCamera(_ screenView: DoclineVideoSDK.Docline.ScreenView, source: DoclineVideoSDK.Docline.CameraSource)
   func updatedCamera(_ screenView: DoclineVideoSDK.Docline.ScreenView, isEnabled: Swift.Bool)
   func updatedMicrophone(_ screenView: DoclineVideoSDK.Docline.ScreenView, isEnabled: Swift.Bool)
   func show(_ screenView: DoclineVideoSDK.Docline.ScreenView)
   func consultationJoined()
 }
-extension DoclineDelegate {
+extension DoclineVideoSDK.DoclineDelegate {
   public func updatedCamera(_ screenView: DoclineVideoSDK.Docline.ScreenView, source: DoclineVideoSDK.Docline.CameraSource)
   public func updatedCamera(_ screenView: DoclineVideoSDK.Docline.ScreenView, isEnabled: Swift.Bool)
   public func updatedMicrophone(_ screenView: DoclineVideoSDK.Docline.ScreenView, isEnabled: Swift.Bool)
   public func show(_ screenView: DoclineVideoSDK.Docline.ScreenView)
   public func consultationJoined()
+  public func consultationRejoin(_ userType: DoclineVideoSDK.Docline.UserType)
+  public func consultationExit(_ userType: DoclineVideoSDK.Docline.UserType)
 }
 public protocol DoclineRecordingDelegate : AnyObject {
   func screenRecordingStarted()
@@ -117,7 +120,7 @@ public protocol DoclineRecordingDelegate : AnyObject {
   func screenRecordingApproved()
   func screenRecordingDenied()
 }
-extension DoclineRecordingDelegate {
+extension DoclineVideoSDK.DoclineRecordingDelegate {
   public func screenRecordingStarted()
   public func screenRecordingFinished()
   public func screenRecordingApproved()
@@ -130,7 +133,7 @@ public protocol DoclineConnectionDelegate : AnyObject {
   func userSelectExit()
   func userTryReconnect()
 }
-extension DoclineConnectionDelegate {
+extension DoclineVideoSDK.DoclineConnectionDelegate {
   public func consultationReconnecting()
   public func consultationReconnected()
   public func discconectedByError()
@@ -142,7 +145,7 @@ public protocol DoclineParticipantDelegate : AnyObject {
   func participantDisconnected(type: DoclineVideoSDK.Docline.StreamType)
   func participantSelected(type: DoclineVideoSDK.Docline.StreamType)
 }
-extension DoclineParticipantDelegate {
+extension DoclineVideoSDK.DoclineParticipantDelegate {
   public func participantConnected(type: DoclineVideoSDK.Docline.StreamType)
   public func participantDisconnected(type: DoclineVideoSDK.Docline.StreamType)
   public func participantSelected(type: DoclineVideoSDK.Docline.StreamType)
@@ -151,7 +154,7 @@ public protocol DoclineChatDelegate : AnyObject {
   func messageSent()
   func messageReceived()
 }
-extension DoclineChatDelegate {
+extension DoclineVideoSDK.DoclineChatDelegate {
   public func messageSent()
   public func messageReceived()
 }
@@ -191,6 +194,14 @@ public protocol TermsDataPassing {
       get
     }
   }
+  public enum UserType {
+    case patient, professional
+    public static func == (a: DoclineVideoSDK.Docline.UserType, b: DoclineVideoSDK.Docline.UserType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
   public struct Setup {
     public init(serverURL: Swift.String, primaryColor: UIKit.UIColor? = nil, secondaryColor: UIKit.UIColor? = nil)
   }
@@ -212,3 +223,5 @@ extension DoclineVideoSDK.Docline.ScreenView : Swift.Equatable {}
 extension DoclineVideoSDK.Docline.ScreenView : Swift.Hashable {}
 extension DoclineVideoSDK.Docline.StreamType : Swift.Equatable {}
 extension DoclineVideoSDK.Docline.StreamType : Swift.Hashable {}
+extension DoclineVideoSDK.Docline.UserType : Swift.Equatable {}
+extension DoclineVideoSDK.Docline.UserType : Swift.Hashable {}

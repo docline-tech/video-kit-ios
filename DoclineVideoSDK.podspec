@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DoclineVideoSDK"
-  spec.version      = "1.0.9"
+  spec.version      = "1.1.0"
   spec.summary      = "The iOS SDK allows you to integrate Docline video consultation services in an easy and simple way."
 
   # This description is used to generate tags and improve search results.
@@ -71,7 +71,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://gitlab.com/dev-docline/doclinevideokitios.git", :tag => "#{spec.version}"}
+  spec.source       = { :git => "https://github.com/docline-tech/video-kit-ios.git", :tag => "#{spec.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
