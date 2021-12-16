@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		U5pxwvDHUiCDjWjcpzBSD8iJxpQ=
+		TBA1Wu4jxMRe4E2+dVKEaq7SNlI=
 		</data>
 		<key>AudioPickerCell.nib</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>CircleButton.nib</key>
 		<data>
-		OSfYQk6RPTJh5DF1jzyiRMM0/8w=
+		NVHmTqr4cEfpz6ylcGoS7bK43sE=
 		</data>
 		<key>CustomActionSheet.storyboardc/Info.plist</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/IMFji8bx85hHTZSquhzhhsB1sI=
+		r1GWDhQ4X5UlskLkUiRYROyp2Sw=
 		</data>
 		<key>LettersView.nib</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>MainButton.nib</key>
 		<data>
-		xe5sWN8w73Cto1OH0meV8C7r/5U=
+		hKMgfAzB0I42E2xnRYieRqtFZyQ=
 		</data>
 		<key>MenuContainer.storyboardc/Info.plist</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Modules/DoclineVideoSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qeW2I4cfPCa9NHKRpN59skuJ9bc=
+		T61FZ1evq6bXqPCqY2VcBmCaz+w=
 		</data>
 		<key>Modules/DoclineVideoSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Modules/DoclineVideoSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		qeW2I4cfPCa9NHKRpN59skuJ9bc=
+		T61FZ1evq6bXqPCqY2VcBmCaz+w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -158,11 +158,11 @@
 		</data>
 		<key>ParticipantInfo.nib</key>
 		<data>
-		SH/KtOlye1FTOCAoyxLDMaAJlMc=
+		zenbyInqvbK4WsYcaeXZNI4CNwc=
 		</data>
 		<key>ParticipantVideoCell.nib</key>
 		<data>
-		I0ooaVD8804BwQWSo1iiFmJaOlc=
+		7KjR4ya1u/zRVX/jrIOREB9L0ZY=
 		</data>
 		<key>Permissions.storyboardc/8CM-yH-en1-view-2ln-rl-ykN.nib</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>SquareButton.nib</key>
 		<data>
-		ZkPWiKTXwLgr7xVwSU8Vu/IfKho=
+		S8lpcTULPP9lRn0dGhk48UD/Q3o=
 		</data>
 		<key>SwitchView.nib</key>
 		<data>
@@ -408,7 +408,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cd1ajK2q7Bd0Grjv95XPa0Qhdp/a+GrDg0CkIpmVwHE=
+			djSAVOC3DCQrxnXun2VKsOveB/yBt4NZy+ZhjXlkJjQ=
 			</data>
 		</dict>
 		<key>AudioPickerCell.nib</key>
@@ -443,7 +443,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q+HLx98YIax47+dkx42JvVUj1PDKSgIV5HEn/7dkbSI=
+			Yq5y/VqWPTRl+3K8Q9Srdmfo+HYuFgL4XUUsWSqaQMA=
 			</data>
 		</dict>
 		<key>CustomActionSheet.storyboardc/Info.plist</key>
@@ -569,7 +569,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rX66vgQwTG6qvnzfVnjX9bbKeUynU9ONUwRvjskXbdI=
+			gWKcMs9oNcUyUlDxa0ryxY0+BDsCm6vaSnCCdtix/qQ=
 			</data>
 		</dict>
 		<key>MenuContainer.storyboardc/Info.plist</key>
@@ -611,7 +611,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FGIlnpvhJRCNtIP47d2aXqnKiaqIngnHgv6HJWjRp7M=
+			FuuTXwj8himxXVJBpBOGmorICNMa32ZWvags8seHlmU=
 			</data>
 		</dict>
 		<key>Modules/DoclineVideoSDK.swiftmodule/arm64.swiftdoc</key>
@@ -632,7 +632,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FGIlnpvhJRCNtIP47d2aXqnKiaqIngnHgv6HJWjRp7M=
+			FuuTXwj8himxXVJBpBOGmorICNMa32ZWvags8seHlmU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -660,14 +660,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TCGSMW8qi8q4CbK1IPBkxYUjoWRB5zmZqjcbLEijReE=
+			fRf7WadD7Szqsjbi5k7Rb95nEpK9SR3KMQHmy4Oh2wE=
 			</data>
 		</dict>
 		<key>ParticipantVideoCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Py8kqeQsVZlnt2q4PjXxQa/Fkt0AzstglA5Kn3nKuBA=
+			o7QXECuye+AGOyksouqMksylSQVZ9G2GbiV3tNjPhVM=
 			</data>
 		</dict>
 		<key>Permissions.storyboardc/8CM-yH-en1-view-2ln-rl-ykN.nib</key>
@@ -786,7 +786,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rjtQAyzuspX4s3f7/astUuymtV0jYraCo88hAR1vDXQ=
+			mCcobfegh6c5UPgULqIHiylUAByxANcDq+9FmGz1hlA=
 			</data>
 		</dict>
 		<key>SwitchView.nib</key>
