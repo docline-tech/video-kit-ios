@@ -6,6 +6,6 @@ framework module DoclineVideoSDK {
 }
 
 module DoclineVideoSDK.Swift {
-    header "DoclineVideoSDK-Swift.h"
-    requires objc
+  header "DoclineVideoSDK-Swift.h"
+  requires objc
 }

@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoclineVideoSDK
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoclineVideoSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
 import Accelerate
@@ -18,6 +19,7 @@ import Swift
 import SystemConfiguration
 import UIKit
 import _Concurrency
+import _StringProcessing
 public protocol PermissionsDelegate : AnyObject {
   func nextAction(_ sender: UIKit.UIViewController, allAutorized: Swift.Bool)
 }
@@ -25,7 +27,7 @@ public protocol PermissionsDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) open func setup()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @objc deinit
 }
@@ -79,10 +81,10 @@ extension UIKit.UIColor {
   @_Concurrency.MainActor(unsafe) weak final public var chatDelegate: DoclineVideoSDK.DoclineChatDelegate?
   @_Concurrency.MainActor(unsafe) override final public func setup()
   @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override final public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
   @objc deinit

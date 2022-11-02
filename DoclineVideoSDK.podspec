@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DoclineVideoSDK"
-  spec.version      = "1.1.1"
+  spec.version      = "1.2.0"
   spec.summary      = "The iOS SDK allows you to integrate Docline video consultation services in an easy and simple way."
 
   # This description is used to generate tags and improve search results.
@@ -83,7 +83,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.swift_version    = "5.0" 
-  spec.ios.deployment_target = "11.0"
+  spec.ios.deployment_target = "12.0"
   spec.ios.vendored_frameworks = "DoclineVideoSDK.xcframework"
 
   spec.pod_target_xcconfig = {
@@ -97,6 +97,6 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
   
-  spec.dependency "OpenTok", "~> 2.21.2"
+  spec.dependency "OpenTok", "~> 2.23.1"
 
 end

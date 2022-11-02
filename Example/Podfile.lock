@@ -1,10 +1,10 @@
 PODS:
-  - DoclineVideoSDK (1.0.1):
-    - OpenTok (~> 2.18.1)
-  - OpenTok (2.18.1)
+  - DoclineVideoSDK (1.1.1):
+    - OpenTok (~> 2.21.2)
+  - OpenTok (2.21.3)
 
 DEPENDENCIES:
-  - DoclineVideoSDK (= 1.0.1)
+  - DoclineVideoSDK (= 1.1.1)
 
 SPEC REPOS:
   trunk:
@@ -12,9 +12,9 @@ SPEC REPOS:
     - OpenTok
 
 SPEC CHECKSUMS:
-  DoclineVideoSDK: a8c4a322bb5c8995510aec0df1656741fc047dde
-  OpenTok: 2a816f5d77fbf2e2ebb5aec841bd21fb7dc7737b
+  DoclineVideoSDK: eda56dad1e193c266b9d6314307c98a774dd4fdf
+  OpenTok: 6c553d092fa8d28cf3457a2b3c1e8f7904ee6063
 
-PODFILE CHECKSUM: de40adb9e238590c0e00fe3df73cdadfd078cfa4
+PODFILE CHECKSUM: b7593343713b5cd974188e2621157606b9c5103c
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

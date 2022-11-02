@@ -1,0 +1,229 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoclineVideoSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import Accelerate
+import CommonCrypto
+import CoreGraphics
+import CoreImage
+import Dispatch
+@_exported import DoclineVideoSDK
+import Foundation
+import ImageIO
+import MobileCoreServices
+import OpenTok
+import QuartzCore
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+public protocol PermissionsDelegate : AnyObject {
+  func nextAction(_ sender: UIKit.UIViewController, allAutorized: Swift.Bool)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BaseViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) open func setup()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @objc deinit
+}
+extension DoclineVideoSDK.BaseViewController : UIKit.UINavigationControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func navigationControllerSupportedInterfaceOrientations(_ navigationController: UIKit.UINavigationController) -> UIKit.UIInterfaceOrientationMask
+}
+extension DoclineVideoSDK.BaseViewController : UIKit.UIViewControllerTransitioningDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> UIKit.UIViewControllerAnimatedTransitioning?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func animationController(forDismissed dismissed: UIKit.UIViewController) -> UIKit.UIViewControllerAnimatedTransitioning?
+}
+public protocol TermsDelegate : AnyObject {
+  func exit(_ sender: UIKit.UIViewController)
+  func agreeTerms(_ sender: UIKit.UIViewController)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class TermsViewController : DoclineVideoSDK.BaseViewController {
+  @_Concurrency.MainActor(unsafe) public var router: (DoclineVideoSDK.TermsDataPassing & DoclineVideoSDK.TermsRoutingLogic & ObjectiveC.NSObjectProtocol)?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: DoclineVideoSDK.TermsDelegate?
+  @_Concurrency.MainActor(unsafe) override public func setup()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
+extension Swift.String : Swift.CodingKey {
+  public var stringValue: Swift.String {
+    get
+  }
+  public init?(stringValue: Swift.String)
+  public var intValue: Swift.Int? {
+    get
+  }
+  public init?(intValue: Swift.Int)
+}
+extension Swift.KeyedEncodingContainerProtocol {
+  public mutating func encodeArray<T>(_ values: [T], forKey key: Self.Key) throws where T : Swift.Encodable
+  public mutating func encodeArrayIfPresent<T>(_ values: [T]?, forKey key: Self.Key) throws where T : Swift.Encodable
+  public mutating func encodeMap<T>(_ pairs: [Self.Key : T]) throws where T : Swift.Encodable, Self.Key : Swift.Hashable
+  public mutating func encodeMapIfPresent<T>(_ pairs: [Self.Key : T]?) throws where T : Swift.Encodable, Self.Key : Swift.Hashable
+}
+extension Swift.KeyedDecodingContainerProtocol {
+  public func decodeArray<T>(_ type: T.Type, forKey key: Self.Key) throws -> [T] where T : Swift.Decodable
+  public func decodeArrayIfPresent<T>(_ type: T.Type, forKey key: Self.Key) throws -> [T]? where T : Swift.Decodable
+  public func decodeMap<T>(_ type: T.Type, excludedKeys: Swift.Set<Self.Key>) throws -> [Self.Key : T] where T : Swift.Decodable, Self.Key : Swift.Hashable
+}
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class DoclineViewController : DoclineVideoSDK.BaseViewController {
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: DoclineVideoSDK.DoclineDelegate?
+  @_Concurrency.MainActor(unsafe) weak final public var recordingDelegate: DoclineVideoSDK.DoclineRecordingDelegate?
+  @_Concurrency.MainActor(unsafe) weak final public var connectionDelegate: DoclineVideoSDK.DoclineConnectionDelegate?
+  @_Concurrency.MainActor(unsafe) weak final public var participantDelegate: DoclineVideoSDK.DoclineParticipantDelegate?
+  @_Concurrency.MainActor(unsafe) weak final public var chatDelegate: DoclineVideoSDK.DoclineChatDelegate?
+  @_Concurrency.MainActor(unsafe) override final public func setup()
+  @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @objc deinit
+}
+extension DoclineVideoSDK.DoclineViewController {
+  @_Concurrency.MainActor(unsafe) final public func leave()
+}
+extension DoclineVideoSDK.DoclineViewController : DoclineVideoSDK.PermissionsDelegate {
+  @_Concurrency.MainActor(unsafe) final public func nextAction(_ sender: UIKit.UIViewController, allAutorized: Swift.Bool)
+}
+public protocol DoclineDelegate : AnyObject {
+  func consultationJoinSuccess(_ sender: DoclineVideoSDK.DoclineViewController)
+  func consultationJoinError(_ error: DoclineVideoSDK.Docline.ResponseError)
+  func consultationTerminated(_ screenView: DoclineVideoSDK.Docline.ScreenView)
+  func consultationRejoin(_ userType: DoclineVideoSDK.Docline.UserType)
+  func consultationExit(_ userType: DoclineVideoSDK.Docline.UserType)
+  func updatedCamera(_ screenView: DoclineVideoSDK.Docline.ScreenView, source: DoclineVideoSDK.Docline.CameraSource)
+  func updatedCamera(_ screenView: DoclineVideoSDK.Docline.ScreenView, isEnabled: Swift.Bool)
+  func updatedMicrophone(_ screenView: DoclineVideoSDK.Docline.ScreenView, isEnabled: Swift.Bool)
+  func show(_ screenView: DoclineVideoSDK.Docline.ScreenView)
+  func consultationJoined()
+}
+extension DoclineVideoSDK.DoclineDelegate {
+  public func updatedCamera(_ screenView: DoclineVideoSDK.Docline.ScreenView, source: DoclineVideoSDK.Docline.CameraSource)
+  public func updatedCamera(_ screenView: DoclineVideoSDK.Docline.ScreenView, isEnabled: Swift.Bool)
+  public func updatedMicrophone(_ screenView: DoclineVideoSDK.Docline.ScreenView, isEnabled: Swift.Bool)
+  public func show(_ screenView: DoclineVideoSDK.Docline.ScreenView)
+  public func consultationJoined()
+  public func consultationRejoin(_ userType: DoclineVideoSDK.Docline.UserType)
+  public func consultationExit(_ userType: DoclineVideoSDK.Docline.UserType)
+}
+public protocol DoclineRecordingDelegate : AnyObject {
+  func screenRecordingStarted()
+  func screenRecordingFinished()
+  func screenRecordingApproved()
+  func screenRecordingDenied()
+}
+extension DoclineVideoSDK.DoclineRecordingDelegate {
+  public func screenRecordingStarted()
+  public func screenRecordingFinished()
+  public func screenRecordingApproved()
+  public func screenRecordingDenied()
+}
+public protocol DoclineConnectionDelegate : AnyObject {
+  func consultationReconnecting()
+  func consultationReconnected()
+  func discconectedByError()
+  func userSelectExit()
+  func userTryReconnect()
+}
+extension DoclineVideoSDK.DoclineConnectionDelegate {
+  public func consultationReconnecting()
+  public func consultationReconnected()
+  public func discconectedByError()
+  public func userSelectExit()
+  public func userTryReconnect()
+}
+public protocol DoclineParticipantDelegate : AnyObject {
+  func participantConnected(type: DoclineVideoSDK.Docline.StreamType)
+  func participantDisconnected(type: DoclineVideoSDK.Docline.StreamType)
+  func participantSelected(type: DoclineVideoSDK.Docline.StreamType)
+}
+extension DoclineVideoSDK.DoclineParticipantDelegate {
+  public func participantConnected(type: DoclineVideoSDK.Docline.StreamType)
+  public func participantDisconnected(type: DoclineVideoSDK.Docline.StreamType)
+  public func participantSelected(type: DoclineVideoSDK.Docline.StreamType)
+}
+public protocol DoclineChatDelegate : AnyObject {
+  func messageSent()
+  func messageReceived()
+}
+extension DoclineVideoSDK.DoclineChatDelegate {
+  public func messageSent()
+  public func messageReceived()
+}
+public protocol TermsDataStore {
+  var htmlString: Swift.String { get set }
+}
+infix operator |> : AdditionPrecedence
+@objc public protocol TermsRoutingLogic {
+}
+public protocol TermsDataPassing {
+  var dataStore: DoclineVideoSDK.TermsDataStore? { get }
+}
+@_hasMissingDesignatedInitializers public class Docline {
+  public static func checkCode(_ code: Swift.String, serverURL: Swift.String, completion: ((Swift.Result<Swift.Void, DoclineVideoSDK.Docline.ResponseError>) -> Swift.Void)?)
+  public static func join(_ data: DoclineVideoSDK.Docline.Setup, options: DoclineVideoSDK.Docline.Options, delegate: DoclineVideoSDK.DoclineDelegate?)
+  public enum CameraSource {
+    case front, back
+    public static func == (a: DoclineVideoSDK.Docline.CameraSource, b: DoclineVideoSDK.Docline.CameraSource) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum ScreenView {
+    case setupScreen, waitingRoom, videoConsultation, permissionsScreen
+    public static func == (a: DoclineVideoSDK.Docline.ScreenView, b: DoclineVideoSDK.Docline.ScreenView) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum StreamType {
+    case camera, screen
+    public static func == (a: DoclineVideoSDK.Docline.StreamType, b: DoclineVideoSDK.Docline.StreamType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum UserType {
+    case patient, professional
+    public static func == (a: DoclineVideoSDK.Docline.UserType, b: DoclineVideoSDK.Docline.UserType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public struct Setup {
+    public init(serverURL: Swift.String, primaryColor: UIKit.UIColor? = nil, secondaryColor: UIKit.UIColor? = nil)
+  }
+  public struct Options {
+    public init(roomCode: Swift.String, enableSetupScreen: Swift.Bool = true, enableMicrophone: Swift.Bool = true, enableCamera: Swift.Bool = true, cameraSource: DoclineVideoSDK.Docline.CameraSource = .front)
+  }
+  public enum ResponseError : Swift.Error {
+    case unauthorizedError
+    case emptyCodeError
+    case connectionError
+    case customError(Swift.String)
+    case defaultError
+  }
+  @objc deinit
+}
+extension DoclineVideoSDK.Docline.CameraSource : Swift.Equatable {}
+extension DoclineVideoSDK.Docline.CameraSource : Swift.Hashable {}
+extension DoclineVideoSDK.Docline.ScreenView : Swift.Equatable {}
+extension DoclineVideoSDK.Docline.ScreenView : Swift.Hashable {}
+extension DoclineVideoSDK.Docline.StreamType : Swift.Equatable {}
+extension DoclineVideoSDK.Docline.StreamType : Swift.Hashable {}
+extension DoclineVideoSDK.Docline.UserType : Swift.Equatable {}
+extension DoclineVideoSDK.Docline.UserType : Swift.Hashable {}
